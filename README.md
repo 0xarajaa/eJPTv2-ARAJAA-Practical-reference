@@ -7,40 +7,7 @@ This repository turns my eJPTv2 learning journey into a practical reference for 
 > [!IMPORTANT]
 > This is an unofficial community resource. It is not affiliated with, endorsed by, or sponsored by INE Security. Use every technique only in systems you own or have explicit authorization to test.
 
-## Learning path
-
-```mermaid
-flowchart LR
-    INFO["Information gathering"] --> SCAN["Footprinting and scanning"]
-    SCAN --> ENUM["Service enumeration"]
-    ENUM --> VULN["Vulnerability assessment"]
-    VULN --> AUDIT["Host and network auditing"]
-    AUDIT --> EXPLOIT["Authorized exploitation"]
-    EXPLOIT --> POST["Credentials and privilege escalation"]
-    POST --> WEB["Web application testing"]
-    WEB --> AI["AI-enhanced workflow"]
-```
-
 ## Repository map
-
-```mermaid
-flowchart TD
-    ROOT["eJPTv2 Practical Reference"] --> S2["Section 2<br/>Assessment Methodologies"]
-    ROOT --> S3["Section 3<br/>Host and Network Auditing"]
-    ROOT --> S4["Section 4<br/>Host and Network Penetration Testing"]
-    ROOT --> S5["Section 5<br/>Web Application Penetration Testing"]
-    ROOT --> S6["Section 6<br/>AI-Enhanced Pentesting"]
-
-    S2 --> IG["Information gathering"]
-    S2 --> FS["Footprinting and scanning"]
-    S2 --> EN["Enumeration"]
-    S2 --> VA["Vulnerability assessment"]
-
-    S4 --> NET["Network-based attacks"]
-    S4 --> SE["Social engineering"]
-    S4 --> LIN["Linux host attacks"]
-    S4 --> WIN["Windows host attacks"]
-```
 
 ## Quick navigation
 
@@ -79,16 +46,6 @@ flowchart TD
 - [AI-enhanced penetration-testing concepts](<SECTION 6 AI Enhanced Pentesting/AI Enhanced Pentesting.md>)
 
 ## Methodology
-
-```mermaid
-flowchart TD
-    SCOPE["Confirm authorization and scope"] --> DISCOVER["Discover assets and services"]
-    DISCOVER --> ENUMERATE["Enumerate versions, users, shares, routes, and behavior"]
-    ENUMERATE --> ANALYZE["Validate weaknesses and preconditions"]
-    ANALYZE --> TEST["Test the smallest safe proof"]
-    TEST --> DOCUMENT["Record evidence, commands, impact, and cleanup"]
-    DOCUMENT --> REVIEW["Review lessons and defensive controls"]
-```
 
 The notes are organized around repeatable workflows rather than isolated commands:
 
@@ -134,3 +91,7 @@ Corrections and useful improvements are welcome through issues or pull requests.
 Created and maintained by **Ahmad Araja (ARAJAA)**.
 
 [Connect with me on LinkedIn](https://www.linkedin.com/in/ahmadaraja)
+
+## License
+
+My original notes and repository documentation are licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](LICENSE.md). This license does not apply to INE course material, certification content, trademarks, or other third-party material that I do not own.
